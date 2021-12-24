@@ -16,6 +16,7 @@ html {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 li {
@@ -123,22 +124,27 @@ input[type=checkbox] {
     align-items: center;
     text-align: center;
     display: flex;
-    padding: 150px 20px 150px 20px;
+    padding: 10vh 20px 10vh 20px;
 }
 
-.about-text {
+.about-text, .contact-text {
     max-width: 900px;
 }
 
 
 .contact {
     background: linear-gradient(90deg, rgba(95, 210, 224, 1) 0%, rgba(190, 194, 255, 1) 50%, rgba(230, 187, 217, 1) 100%);
-    height: calc(100vh - 83px);
     justify-content: center;
     align-items: center;
     text-align: center;
     display: flex;
-    padding: 20px;
+    padding: 10vh 20px 10vh 20px;
     color: #fff;
+}
 
+.contact-button {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: inherit;
 }
